@@ -1,0 +1,10 @@
+CREATE TABLE `users` (                   
+          `id` INT(11) NOT NULL AUTO_INCREMENT,  
+          `user_name` VARCHAR(50) NOT NULL,      
+          `user_password` VARCHAR(50) NOT NULL,  
+          PRIMARY KEY (`id`)                     
+) ENGINE=INNODB DEFAULT CHARSET=latin1;
+
+
+INSERT INTO users (user_name,user_password) VALUES ('deepak','deepak');
+INSERT INTO users (user_name,user_password) VALUES ('john','john');`devopsdb`
